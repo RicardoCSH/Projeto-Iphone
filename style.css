@@ -1,0 +1,128 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa-roxa {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
+
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #373737;
+
+}
+
+.logo {
+    width: 20px;
+}
+
+
+.fundo {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.titulo-iphone {
+    font-size: 30px;
+
+}
+
+.titulo-poderoso {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.paragrafo {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao {
+    font-size: 20px;
+    background-color: #0071e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.troca-cor {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.azul {
+    background-color: #0071e3;
+}
+
+.roxo {
+    background-color: #990096;
+
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.branco {
+    background-color: #c1c1c1;
+}
+
+.preto {
+    background-color: #000000;
+}
+
+.vermelho {
+    background-color: #B50012;
+}
+
+.escolha-cor {
+    font-size: 16px;
+    color: #626262;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.iphone {
+    width: 450px;
+    
+}
+.circulo{
+    width: 100%;
+    height: 100%;
+    background-color: #1100ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 1000px);
+    z-index: -99;
+}
